@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px; /* Adjust width as needed */
+}
+
+label, input, output {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.bold-label {
+    font-weight: bold;
+}

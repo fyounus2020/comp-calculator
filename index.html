@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary & Stock Options Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+		<label class="bold-label" for="salary">Base Salary ($):</label>
+		<input type="range" id="salary" min="60000" max="100000" value="100000" step="1000" oninput="updateValues()">
+		<output id="salaryOutput">80,000</output>
+
+		<label class="bold-label" for="equity">Stock Options:</label>
+		<input type="range" id="equity" min="50000" max="200000" value="50000" step="1000">
+		<output id="equityOutput">125,000</output>
+
+		<label class="bold-label">Title:</label>
+		<output id="titleOutput">Founding Engineer</output>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
